@@ -1,0 +1,89 @@
+body{
+	background-color: white;
+	margin : 0px;
+	padding: 0px;
+}
+header{
+	padding: 20px 0px;
+	border-bottom: 2px solid #b3b3b3;
+}
+nav{
+	font-family: 'Julius Sans One', sans-serif; 
+	font-size: 12px;
+	display: inline;
+	padding:0px 10px;
+}
+nav ul{
+	list-style-type: none;
+	display: inline;
+}
+nav ul li{
+	display: inline;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#logo{
+	height: 60px;
+	width: auto;
+	display: inline;
+	/*vertical-align: text-top;*/
+}
+.container{
+	max-width: 750px;
+	margin:0px auto;
+}
+.segment{
+	padding: 75px 0px;
+	background-color: #1e1e23;
+}
+.segment-white{
+	padding: 75px 0px;
+	background-color: #fbfbfb;
+}
+.segment-white h1{
+	color: black;
+}
+.segment-white h1.back{
+	color: #cccccc;
+}
+.segment-white p.content{
+	color: #333333;
+}
+header .container{
+	max-width: 800px;
+}
+
+
+/* Typo   */
+h1{
+	font-family: 'Crimson Text', serif;
+	color: #f2f2f2;
+	margin-bottom: 0px;
+	margin-top: -31px;
+	font-weight: 600;
+}
+h1.back{
+	color: #333333;
+	font-size: 371%;
+	margin-left: -41px;
+	font-weight: 600;
+}
+h2{
+	color: black;
+	font-family: 'Crimson Text', serif;
+	font-weight: 400;
+	margin-bottom: 0px;
+}
+p.subtitle{
+	font-family: 'Julius Sans One', sans-serif; 
+	font-size: 10px;
+	color: #999999;
+	margin-top: 0px;
+	margin-bottom: 2em;
+}
+p.content{
+	font-family: 'Julius Sans One', sans-serif; 
+	font-size: 12px;
+	line-height: 230%;
+	color: #f2f2f2;
+}
