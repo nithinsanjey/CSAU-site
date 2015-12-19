@@ -44,15 +44,24 @@ nav ul li{
 	color: black;
 }
 .segment-white h1.back{
-	color: #cccccc;
+	color: rgba(204,204,204,0.5);
 }
 .segment-white p.content{
 	color: #333333;
+}
+.segment-white h3{
+	color: black;
 }
 header .container{
 	max-width: 800px;
 }
 
+.beforeScroll{
+	display: none;
+}
+.afterScroll{
+	display: block;
+}
 
 /* Typo   */
 h1{
@@ -63,13 +72,13 @@ h1{
 	font-weight: 600;
 }
 h1.back{
-	color: #333333;
+	color: rgba(51,51,51,0.5);
 	font-size: 371%;
 	margin-left: -41px;
 	font-weight: 600;
 }
-h2{
-	color: black;
+h3{
+	color: #e6e6e6;
 	font-family: 'Crimson Text', serif;
 	font-weight: 400;
 	margin-bottom: 0px;
@@ -86,4 +95,29 @@ p.content{
 	font-size: 12px;
 	line-height: 230%;
 	color: #f2f2f2;
+}
+
+/* Check */
+
+.module{
+	margin-bottom: 30px;
+}
+.come-in {
+  transform: translateY(150px);
+  animation: come-in 0.8s ease forwards;
+}
+
+.come-in:nth-child(odd) {
+  animation-duration: 0.8s;
+}
+
+.already-visible {
+  transform: translateY(0);
+  animation: none;
+}
+
+@keyframes come-in {
+  to {
+    transform: translateY(0);
+  }
 }
